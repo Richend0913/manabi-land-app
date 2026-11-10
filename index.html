@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <!-- iOS tuning: viewport-fit=cover draws under the notch / home
+         indicator (safe-area padding lives in theme.css). Pinch zoom is
+         left ENABLED for parents — the iOS focus auto-zoom is prevented
+         the supported way instead: every input renders at 16px+
+         (see the input rule in theme.css). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <!-- EdgeToEdge: status-bar / gesture-bar area takes the header sky blue (#42A5F5, same as SafeAreaTopScrim and the header gradient start) -->
+    <meta name="theme-color" content="#42A5F5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#42A5F5" media="(prefers-color-scheme: dark)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- Empty inline icon: stops the browser fetching /favicon.ico, which
+         lives outside the space's routes and fails auth. -->
+    <link rel="icon" href="data:," />
+    <title>小学1〜6年生 学習アプリ</title>
+    
+  <script src="./static-backend.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-5mb89tzy.css"><script type="module" crossorigin src="./assets/index-s3ctfmyv.js"></script></head>
+  <body>
+    <div
+      data-generated-space-root=""
+      data-generated-space-slug="1-6"
+    ></div>
+  </body>
+</html>
